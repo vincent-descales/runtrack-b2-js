@@ -1,0 +1,15 @@
+function myUpperCase(string) {
+/**
+ * Your code here
+ */
+    var map = { a: 'A', b: 'B', c: 'C', d: 'D', e: 'E', f: 'F', g: 'G', h: 'H', i: 'I', j: 'J', k: 'K', l: 'L', m: 'M', n: 'N', o: 'O', p: 'P', q: 'Q', r: 'R', s: 'S', t: 'T', u: 'U', v: 'V', w: 'W', x: 'X', y: 'Y', z: 'Z' }
+
+    var output = ''
+    for (var i = 0; i < string.length; i++)
+    output += map[string[i]] || string[i]
+
+    return output
+
+}
+myUpperCase("Hello World");
+
